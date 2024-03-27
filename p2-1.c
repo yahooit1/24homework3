@@ -54,7 +54,7 @@ printf("list \t= %p\n", list);
 printf("&list \t= %p\n\n", &list);
 int i;
 float tempsum = 0;
-for(i = 0; i < n; i++)
+for(i = 0; i < n; i++) //n까지 반복
 tempsum += *(list + i); //list에 i를 더한 위치에 있는 값을 tempsum에 저장하여 더함
 return tempsum;
 }
